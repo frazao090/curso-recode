@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+@font-face {
+    font-family:'lumanosimo';
+    src: url("..//Desafio005/Lumanosimo-Regular.ttf");
+}
+
+header {
+    background-image: linear-gradient(to bottom, #F80032,#AB0000);
+    padding:20px;
+    margin-top: 0px;
+    border-top: 0px;
+    border-radius: 5px;
+    
+}
+nav > a{
+    color: white;
+    margin-right: 9px;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 14px;
+    
+}
+nav > a:hover {
+    text-decoration: underline;
+    background-color: black;
+    padding: 1px;
+    border-radius: 5px;
+    
+}
+img.frazao {
+    width: 130px;
+    border-radius: 5px;
+}
+h2#fonte {
+    font-family: "lumanosimo";
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+h3#inicial {
+    text-align: justify;
+}
+
+th.produtos1 {
+   
+    width: 20%;
+    
+    }
+
+
+li {
+    text-align: justify;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+
+table.produtos {
+    width: 30%;
+    padding: 0px 25px 10px 10px;
+    display:inline-block;
+    text-align: center;
+    margin: auto;
+}
+table#lojas {
+    background-color: white;
+    width: 100%;
+    margin: auto;
+}
+
+
+strong {
+    color: red;
+}
+
+img#email {
+    width: 40px;
+}
+
+img#zap {
+    width: 40px;
+}
+div.rodape {
+    text-align: center;
+    border: 1px solid #F80032;
+    width: 350px;
+    height: 225px;
+    margin: auto;
+    border-radius: 5px;
+    text-shadow:2px 2px 0px rgba(0, 0, 0, 0.425);
+    box-shadow:2px 2px 0px rgba(0, 0, 0, 0.425);
+    
+}
+div.item {
+    width: 140px;
+    height: 140px;
+    display: inline-block;
+    margin-right: 15px;
+    text-align: center;
+    margin-top: 0px;
+}
+div#categorias {
+    margin-top: 0px;
+    width: 200px;
+    height: 170px;
+    display: inline-block;
+}
+
+
+a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+

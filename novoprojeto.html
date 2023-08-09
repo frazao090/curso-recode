@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="..//Módulo-1/favicon_io/angry/angry.ico" type="image/x-icon">
+    <title>Algorítimos</title>
+</head>
+<body>
+    <h1>Conteúdo</h1>
+    <ul type="square">
+        <li>Classes</li>
+        <li>Atributos</li>
+        <li>Métodos</li>
+        <li>Instância de Objetos</li>
+        
+    </ul>
+    <hr>
+    <script>
+class Pessoa{
+    constructor(nome){
+        this.nome = nome;
+    }
+ falar(frase){
+    console.log(this.nome + " disse: " + frase);
+ }
+}
+var p1 = new Pessoa("Anderson");
+p1.falar("Oi, tudo bem?");
+p1.falar("Como vai?");
+    </script>
+</body>
+</html>
